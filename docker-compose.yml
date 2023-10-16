@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  message-publisher-service:
+    container_name: message-publisher-service
+    image: "polysnap/message-publisher-service"
+    ports:
+      - 3001:8080
